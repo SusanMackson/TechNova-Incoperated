@@ -7,112 +7,236 @@
 
 </head>
 <style>
-    img {
-    height: 120px;
-    width: auto; 
-    display: inline-block;
-    vertical-align: middle; 
-    margin-right: 600px;
-    margin-left: 60px;
-  }
 
   nav{
+    height: 100px;
     display: inline;
     margin-left: 30px;
   }
 
   a {
-    padding: 15px;
+    padding: 30px;
     font-size: 3ch;
-
+    color: white;
+    text-align: center;
   }
   
-  .h{
-    background-color: rgba(255, 245, 232, 0.968);
-    height: 80px; 
-    padding-bottom: 20px;
+  .header{
+    background-color: rgba(6, 6, 5, 0.968);
+    height: 50px; 
+    padding-bottom: 0px;
+    padding-top: 20px;
 }
-.btn{
-    background-color: red;
+
+.start{
+    background-color: green; padding: 10px;
+
+}
+.hero{
+    text-align: center;
+    background-color: rgb(207, 205, 205); padding: 20px;
+    height: 100px;
+}
+.logo{
+    height: 100px;
+    padding-bottom: 0px;
+    margin: -50px;
+}
+p{
+    line-height: 1.4;  
+    font-size: 20px;
+}
+ol{
+    line-height: 1.4;  
+    font-size: 20px;
+}
+.apps{
+    display: flex;
+}
+.home{
+    text-align: center;
+    background-color: #f7f4f4;
+}
+.about{
+    text-align: center;
+}
+.about-us{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 245);
 }
 .services{
-    background-color: rgb(148, 115, 66);
+    text-align: center;
 }
+.our-services{
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.ai-video{
+    text-align: center;
+    padding-inline: 600px;
+    height: 300px;
+    width: 400px;
+
+}
+.team{
+    width: 120px; 
+    height: 120px; 
+    border-radius: 60%; 
+    object-fit: cover; 
+    margin-right: 20px;"
+}
+.our-team{
+    text-align: center;
+    background-color: beige;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.meeting{
+    text-align: center;
+    padding-inline: 600px;
+    height: 300px;
+    width: 400px;
+}
+.contact {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+}
+.contact-form {
+  text-align: left;
+  margin-left: 600px;
+  display: block;
+}
+.contact-form input, .contact-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.submit-btn{
+  background: #0056b3;
+}
+.footer-bottom{
+    background-color: black;
+    margin-top: 10px;
+    padding: 30px;
+    font-size: 3ch;
+    color: white;
+    text-align: center;
 }
 </style>
 
 <header>
-    <section class="h">
-   <img src="technova_logo.png" alt="TECHNOVA LOGO">
-
+    <section class="header">
    <nav>
-    <a href="#">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Contact Us</a>
-    <a href="#">Services</a>
-    <a href="#" class="btn">Get Started</a>
+    <a href="home">Home</a>
+    <a href="About">About Us</a>
+    <a href="Contact">Contact Us</a>
+    <a href="Services">Services</a>
+    <a href="Team">Our Team</a>
+    <button type="start" class="start">Get Started</button>
    </nav>
 </section>
+
 <div class="hero">
-    <h1>Welcome to TechNova Inc.</h1>
-    <h3>An innovative technology solutions for modern businesses</h3>
-    <h3>Would you like to collaborate with us? Click here to<a href="#">Get Started</a> </h3>
+    <img src="/images/technova_logo.png" alt="technova logo" class="logo">
+    <h1>TECHNOVA-INCOPORATED</h1>
   </div>
 </header>
 
 <body>
-    <section class="hero">
+    <section class="home">
         <h1>Welcome to TECHNOVA</h1>
-       
-        <a href="#" class="btn">Inquires</a>
-        <img src="ICT_-_A_key_catalyst_for_sustainable_development-article.jpg" alt="dev" class="">
-        </section>
-
-        <section id="about">
-          <h2>About Us</h2>
-          <p>At TechNova Inc., we specialize in delivering innovative technology solutions tailored to the unique needs of businesses across industries.</p>
+        <video src="/videos/Technova1.mp4" width="500px"controls> </video>
+        <p>Welcome to TechNova Inc., your trusted partner in innovation and technology excellence. At TechNova, we pride ourselves on delivering cutting-edge solutions tailored to meet the unique needs of businesses across diverse industries. Whether you’re looking to streamline operations, enhance productivity, or unlock new growth opportunities, our team of experts is here to empower your success in today’s fast-paced digital landscape. Explore our services and discover how we can help you achieve your goals with innovative, reliable, and scalable technology solution</p>
+    </section>
+    
+    <section class="about-us">
+          <h1 class="about">About Us</h1>
+          <img src="/images/Technova-Industries-Team-Meeting.jpg" alt="meetig" width="500px" class="meeting">
+         <p>At TechNova Incoporated, we are passionate about revolutionizing the way businesses leverage technology to achieve success. As a dynamic and fast-growing technology company, we specialize in delivering innovative, reliable, and scalable solutions tailored to meet the unique needs of our clients.</p>
+         <p> <b>Our mission</b> is to empower organizations across diverse industries by providing cutting-edge tools and services that enhance efficiency, foster growth, and drive competitive advantage. Guided by values of innovation, excellence, and collaboration, we prioritize understanding your challenges to deliver results that exceed expectations.</p>
+        <p>With a team of dedicated experts and a customer-centric approach, TechNova Incoporated is committed to helping you navigate the complexities of the digital world and unlocking your business's true potential.</p>
         </section>
       
-        <section class="services">
-          <h2>Our Services</h2>
+        <section class="our-services">
+          <h2 class="services">Our Services</h2>
+          <video src="/videos/AI The Future .mp4" width="200px"controls class="ai-video"> </video>
             <div class="service">
-            <h3>Custom Software Development </h3>
-            <p>Building software solutions tailored to your business needs.</p>
-          </div>
-          <div class="service">
-            <h3>Cloud Computing Solutions</h3>
-            <p>Secure and scalable cloud services to enhance your business operations</p>
-          </div>
-          <div class="service">
-            <h3>IT Consulting</h3>
-            <p>Expert guidance to help you navigate the complexities of technology integration.</p>
-          </div>
-          <div class="service">
-            <h3>Data Analytics</h3>
-            <p>Transforming data into actionable insights to drive growth</p>
-          </div>
-          <div class="service">
-            <h3>Cybersecurity Solutions</h3>
-            <p>Protecting your business from digital threats.</p>
+                <p>At TechNova Incoporated, we offer a wide range of innovative technology solutions designed to empower businesses and drive success. Our services include:</p>
+                <ol>
+                    <b><li>Custom Software Development</li></b>
+                    <ul>
+                        We create tailored software solutions that align with your unique business needs, ensuring efficiency, scalability, and a seamless user experience.
+                    </ul>
+                    <b><li>Cloud Computing Solutions</li></b>
+                    <ul>
+                        Embrace the future with our secure and scalable cloud services, enabling flexible operations and enhanced collaboration for your business.
+                    </ul>
+                    <b><li>Data Analytics & Business Intelligence</li></b>
+                    <ul>
+                        Turn data into actionable insights with our advanced analytics tools, helping you make informed decisions and stay ahead of the competition.
+                    </ul>
+                    <b><li>Cybersecurity Services</li></b>
+                    <ul>
+                        Protect your business from digital threats with our comprehensive cybersecurity solutions, safeguarding your systems, data, and operations.
+                    </ul>
+                    <b><li>IT Consulting & Support</li></b>
+                    <ul>
+                        Gain access to expert advice and ongoing support to optimize your technology strategy and ensure smooth operations.
+                    </ul>
+                </ol>
+            <p>Discover how TechNova Incoporated can transform your business with these innovative and reliable technology solutions. Let’s build a future powered by success and innovation!</p>
           </div>
         </section>
-      
-        <section id="contact">
-          <h2>Contact Us</h2>
-          <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-          </form>
-        </section>
-      
-        <footer>
-          <p>&copy; 2024 TechNova Inc. All rights reserved.</p>
-        </footer>
-      </body>
-</body>
-<footer>
 
+        <section class="our-team">
+            <h2>Meet Our Expert Team</h2>
+            <img src="/images/team 1.JPG" alt="team members" class="team">
+            <img src="/images/team 2.jpg" alt="team members" class="team">
+            <img src="/images/team 3.jpg" alt="team members" class="team">
+            <img src="/images/team 4.JPG" alt="team members" class="team">
+            <img src="/images/team 7.jpeg" alt="team members" class="team">
+        </section>
+
+        <section class="contact">
+          <h2>Contact Us</h2>
+            <p>
+              Have questions, inquiries, or want to collaborate with us? We would love to hear from you! Reach out to us through the form below or via our contact details.
+            </p>
+            
+            <div class="contact-details">
+              <p><strong>Email:</strong> contact@technovainc.com</p>
+              <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+              <p><strong>Address:</strong> 123 TechNova Drive, Silicon Valley, CA</p>
+            </div>
+            
+             <div class="contact-form">
+                <form >
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+              
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+              
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea><br>
+              
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+          </section>  
+</body>
+
+<footer>
+    <div class="footer-bottom">
+    <address>&copy; 2024 TechNova Inc. All rights reserved. SusanM</address>
+</div>
 </footer>
 </html>
